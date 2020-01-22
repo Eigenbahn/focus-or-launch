@@ -9,6 +9,8 @@ I was annoyed with GNOME 3 inability to define a keyboard shortcut to attempt fo
 
 I ended up with this small script that does the trick.
 
+You can read more on the [accompanying blog post](https://www.eigenbahn.com/2020/01/22/gnome-shortcut-focus-or-launch).
+
 
 ## General Usage
 
@@ -72,4 +74,6 @@ But this is cumbersome and not necessary for our use-case.
 
 ## Similar projects
 
-There is a [similar script relying on the fluxbox wiki](http://fluxbox-wiki.org/Keyboard_shortcuts.html) (at the end of the page) that relies solely on _xdotool_ but I assume it does not distinguish between desktops.
+There is a [a script on the fluxbox wiki](http://fluxbox-wiki.org/Keyboard_shortcuts.html) (at the end of the page) that relies solely on _xdotool_ but I assume it does not distinguish between desktops.
+
+StackOverflow user [desgua](https://askubuntu.com/users/12943/desgua) shared [another implementation](https://askubuntu.com/questions/127284/command-to-launch-an-application-or-to-show-its-window-if-already-launched).
