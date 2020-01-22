@@ -68,3 +68,8 @@ But this is cumbersome and not necessary for our use-case.
 
  - http://tripie.sweb.cz/utils/wmctrl/
  - https://www.freedesktop.org/wiki/Software/wmctrl/
+
+
+## Similar projects
+
+There is a [similar script relying on the fluxbox wiki](http://fluxbox-wiki.org/Keyboard_shortcuts.html) (at the end of the page) that relies solely on _xdotool_ but I assume it does not distinguish between desktops.
