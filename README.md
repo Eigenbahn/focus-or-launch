@@ -5,7 +5,10 @@ Small python script to focus or open program under X server.
 
 ## Introduction
 
-I was annoyed with GNOME 3 inability to define a keyboard shortcut to attempt focus on a program window if any on current desktop of fallback to opening it.
+I was annoyed with GNOME 3 inability to define a keyboard shortcut doing the following:
+
+ - attempt focus on a window for program, on current desktop, if any
+ - launch the program as a fallback
 
 I ended up with this small script that does the trick.
 
