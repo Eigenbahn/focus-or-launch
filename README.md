@@ -1,6 +1,6 @@
-# focus-or-open-program
+# focus-or-launch
 
-Small python script to focus or open program under X server.
+Small script to focus or launch program under X server.
 
 
 ## Introduction
@@ -17,7 +17,7 @@ You can read more on the [accompanying blog post](https://www.eigenbahn.com/2020
 
 ## General Usage
 
-    $ focus-or-open-program --app-class <window-class> --app-launch-command '<launch-command>'
+    $ focus-or-launch --app-class <window-class> --app-launch-command '<launch-command>'
 
 | argument               | description                              |
 |------------------------|------------------------------------------|
@@ -33,14 +33,14 @@ Search for the value of `WM_CLASS(STRING)`.
 
 In should be in the form `"program", "Program"`.
 
-You should then use the value `program.Program` as the argument for `focus-or-open-program`.
+You should then use the value `program.Program` as the argument for `focus-or-launch`.
 
 
 ## Examples
 
 #### Emacs
 
-    $ focus-or-open-program --app-class emacs.Emacs --app-launch-command 'emacsclient -c -a ""'
+    $ focus-or-launch --app-class emacs.Emacs --app-launch-command 'emacsclient -c -a ""'
 
 To declare a shortcut in GNOME 3, go to `Settings` > `Keyboard Shortcuts`, all the way down and click on the `+` to add a custom shortcut.
 
