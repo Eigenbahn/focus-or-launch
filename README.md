@@ -12,7 +12,7 @@ I was annoyed with GNOME 3 inability to define a keyboard shortcut doing the fol
 
 I ended up with this small script that does the trick.
 
-You can read more on the [accompanying blog post](https://www.eigenbahn.com/2020/01/22/gnome-shortcut-focus-or-launch).
+For more context, read the [accompanying blog post](https://www.eigenbahn.com/2020/01/22/gnome-shortcut-focus-or-launch).
 
 
 ## General Usage
