@@ -5,12 +5,14 @@ Small script to focus or launch program under X server.
 
 ## Introduction
 
-I was annoyed with GNOME 3 inability to define a keyboard shortcut doing the following:
+I was annoyed with most DE / WM inability to define a keyboard shortcut doing the following:
 
  - attempt focus on a window for program, on current desktop, if any
  - launch the program as a fallback
 
 I ended up with this small script that does the trick.
+
+It can act as a nice complement to [wmutils](https://github.com/wmutils) (albeit less minimal) for multi-desktop setups.
 
 For more context, read the [accompanying blog post](https://www.eigenbahn.com/2020/01/22/gnome-shortcut-focus-or-launch).
 
@@ -42,7 +44,7 @@ You should then use the value `program.Program` as the argument for `focus-or-la
 
     $ focus-or-launch --app-class emacs.Emacs --app-launch-command 'emacsclient -c -a ""'
 
-To declare a shortcut in GNOME 3, go to `Settings` > `Keyboard Shortcuts`, all the way down and click on the `+` to add a custom shortcut.
+Under GNOME 3, go to `Settings` > `Keyboard Shortcuts`, all the way down and click on the `+` to add a custom shortcut.
 
 ![gnome_shortcut_settings](/gnome_shortcut_settings.png)
 
