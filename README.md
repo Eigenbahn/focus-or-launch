@@ -12,7 +12,7 @@ I was annoyed with most DE / WM inability to define a keyboard shortcut doing th
 
 I ended up with this small script that does the trick.
 
-It can act as a nice complement to [wmutils](https://github.com/wmutils) (albeit less minimal) for multi-desktop setups.
+It can act as a nice complement to [xbindkeys](https://www.nongnu.org/xbindkeys/) & [wmutils](https://github.com/wmutils) (albeit less minimal) for multi-desktop setups.
 
 For more context, read the [accompanying blog post](https://www.eigenbahn.com/2020/01/22/gnome-shortcut-focus-or-launch).
 
@@ -40,11 +40,24 @@ You should then use the value `program.Program` as the argument for `focus-or-la
 
 ## Examples
 
-#### Emacs
+    All those examples take the following command, launching an Emacs client frame.
+
+#### Manual execution
 
     $ focus-or-launch --app-class emacs.Emacs --app-launch-command 'emacsclient -c'
 
-Under GNOME 3, go to `Settings` > `Keyboard Shortcuts`, all the way down and click on the `+` to add a custom shortcut.
+
+#### xbindkey
+
+Put this entry in your `~/.xbindkeysrc`:
+
+    "focus-or-launch --app-class emacs.Emacs --app-launch-command 'emacsclient -c'"
+        Mod4 + e
+
+
+#### Gnome3
+
+Go to `Settings` > `Keyboard Shortcuts`, all the way down and click on the `+` to add a custom shortcut.
 
 ![gnome_shortcut_settings](/gnome_shortcut_settings.png)
 
