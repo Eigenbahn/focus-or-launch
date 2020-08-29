@@ -42,7 +42,7 @@ You should then use the value `program.Program` as the argument for `focus-or-la
 
 #### Emacs
 
-    $ focus-or-launch --app-class emacs.Emacs --app-launch-command 'emacsclient -c -a ""'
+    $ focus-or-launch --app-class emacs.Emacs --app-launch-command 'emacsclient -c'
 
 Under GNOME 3, go to `Settings` > `Keyboard Shortcuts`, all the way down and click on the `+` to add a custom shortcut.
 
