@@ -94,4 +94,4 @@ But this is cumbersome and not necessary for our use-case.
 
 There is a [a script on the fluxbox wiki](http://fluxbox-wiki.org/Keyboard_shortcuts.html) (at the end of the page) that relies solely on _xdotool_ but I assume it does not distinguish between desktops.
 
-StackOverflow user [desgua](https://askubuntu.com/users/12943/desgua) shared [another implementation](https://askubuntu.com/questions/127284/command-to-launch-an-application-or-to-show-its-window-if-already-launched).
+StackOverflow user [desgua](https://askubuntu.com/users/12943/desgua) shared [another implementation](https://askubuntu.com/questions/127284/command-to-launch-an-application-or-to-show-its-window-if-already-launched) that likewise doesn't distinguish between desktops.
