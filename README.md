@@ -1,6 +1,6 @@
 # focus-or-launch
 
-Small script to focus or launch program under X server.
+Small script to focus or launch a program under X server.
 
 
 ## Introduction
