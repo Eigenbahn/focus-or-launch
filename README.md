@@ -86,6 +86,17 @@ With `xprop -id <window_id>`, _window_id_ being either one of the 2 id system, w
 But this is cumbersome and not necessary for our use-case.
 
 
+## Performance
+
+The weak link in the chain is _xdotool_.
+
+It is notorious for being slow.
+
+Tested on a modern 64 bit processor with Ubuntu 20.04, performance is very good (< 5ms).
+
+Tested on a old 32bit laptop with BunsenLabs Lithium, there is a noticeable delay (> 100ms).
+
+
 ## References
 
  - http://tripie.sweb.cz/utils/wmctrl/
