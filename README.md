@@ -2,6 +2,7 @@
 
 Small script to focus or launch a program under X server.
 
+![demo](https://www.eigenbahn.com/assets/gif/focus_or_launch_demo.gif)
 
 ## Introduction
 
