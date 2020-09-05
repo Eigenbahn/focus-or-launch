@@ -11,7 +11,7 @@ I was annoyed with most DE / WM inability to define a keyboard shortcut doing th
  - attempt focus on a window for program, on current desktop, if any
  - launch the program as a fallback
 
-This correspond to a use-case for which we don't want more than 1 instance of a program window / virtual desktop.
+This correspond to a use-case for which we don't want more than 1 instance of a program window per virtual desktop.
 
 I ended up with this small script that does the trick.
 
