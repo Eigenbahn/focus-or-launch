@@ -106,6 +106,8 @@ Tested on a old 32bit laptop with BunsenLabs Lithium, there is a noticeable dela
 
 ## Similar projects
 
+[u/narrow_assignment](https://www.reddit.com/user/narrow_assignment/) made a [https://pastebin.com/raw/WtvW3Yb2](very similar script). His version is more suited for the use-case where you'd want a program to have its window on only one desktop at a time. It will launch program if not running of focus on an existing window in another desktop, switching to it. It's in pure bourne shell and relies on _xprop_ and _wmctrl_.
+
 There is a [a script on the fluxbox wiki](http://fluxbox-wiki.org/Keyboard_shortcuts.html) (at the end of the page) that relies solely on _xdotool_ but I assume it does not distinguish between desktops.
 
 StackOverflow user [desgua](https://askubuntu.com/users/12943/desgua) shared [another implementation](https://askubuntu.com/questions/127284/command-to-launch-an-application-or-to-show-its-window-if-already-launched) that likewise doesn't distinguish between desktops.
